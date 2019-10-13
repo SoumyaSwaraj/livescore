@@ -1,0 +1,120 @@
+https://codecanyon.net/item/spin2win-wheel-spin-it-2-win-it/16337656
+
+https://www.emanueleferonato.com/2015/07/31/create-a-wheel-of-fortune-for-your-html5-games-with-phaser-in-only-a-few-lines/
+
+
+
+https://codepen.io/szsoma/pen/bYEXGx
+
+//
+
+// Setup wheel colors
+
+$frameColor: 	#D4AF37;
+$winIndicatorColor:		#D4AF37;
+$middleColor:	#D4AF37;
+$colors: 
+  #ba4d4e     //sector 1 color
+  #ba4d4e     //sector 2 color
+  #ba4d4e     //sector 3 color
+  #fc7800     //sector 4 color
+  #fc7800     //sector 5 color
+  #fc7800     //sector 6 color
+  #ba4d4e     //sector 7 color
+  #ba4d4e     //sector 8 color
+  #ba4d4e     //sector 9 color
+  #14c187     //sector 10 color
+  #14c187     //sector 11 color
+  #14c187;    //sector 12 color
+
+@mixin setColor($n){
+  fill: nth($colors, $n);
+}
+
+@for $i from 1 through 12 {
+  #_#{$i} {
+    @include setColor($i);
+  }
+}
+
+.frame, .sticks {
+  fill: $frameColor;
+}
+
+.winIndicator{
+  fill: $winIndicatorColor;
+}
+
+.wheelMiddle {
+  fill: $middleColor;
+}
+
+// Body
+
+body {
+  text-align: center;
+  margin: auto;
+  background-color:  #141414;
+}
+
+.luckywheel {
+  margin: 40px auto;
+  width: 50%;
+  height: 50%;
+}
+
+// Buttons
+
+.btn,
+.btn:visited{
+  font-weight: 800;
+  margin: 10px;
+  height: 40px;
+  width: 140px;
+  box-shadow: 4px 4px 20px 0 #cc4c45;
+  border-radius: 0;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
+.btn:hover,
+.btn:active {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  text-decoration: none;
+  box-shadow: 4px 4px 5px 0 #cc4c45;
+}
+
+//
+
+
+
+
+
+
+
+*   COVER BACKGROUND  *
+https://codepen.io/ma_suwa/pen/VJzpXe
+s
+
+*HARRY POTTER*
+https://codepen.io/oliviale/pen/ymbmqa
+
+*CURSOR*
+https://codepen.io/jh3y/pen/zgoBVj
+
+*LANTERN*
+https://codepen.io/7oot/pen/byPKra
+
+*VALLEY*
+https://codepen.io/cjgammon/pen/aZmdOG
+
+* FIRE BLOWING *
+https://codepen.io/mwmwmw/pen/wNWoMV
+
+
+
+*HEHE*
+https://codepen.io/tylernj42/pen/LEKedz
